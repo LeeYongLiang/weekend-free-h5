@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111217">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="选出空闲，凑齐伙伴。好周末，从一起有空开始。">
+  <title>周末有空</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="4"/><path d="M7 3v4m10-4v4M3 11h18m-14 4h3m4 0h3"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4m0-14.2-1.4 1.4M6.3 17.7l-1.4 1.4"/></symbol>
+    <symbol id="i-sunset" viewBox="0 0 24 24"><path d="M3 17h18M5 21h14M7 17a5 5 0 0 1 10 0M12 3v3M4 8l2 2m14-2-2 2M2 13h2m16 0h2"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="m10 13 4-4m-6 7-1 1a4.2 4.2 0 0 1-6-6l4-4a4.2 4.2 0 0 1 6 0m2 1 1-1a4.2 4.2 0 0 1 6 6l-4 4a4.2 4.2 0 0 1-6 0" transform="translate(1 1)"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 8a8 8 0 0 0-14-3L3 8m0-5v5h5m-4 8a8 8 0 0 0 14 3l3-3m0 5v-5h-5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3m1-16a3 3 0 0 1 0 6m3 10v-3a6 6 0 0 0-2-4"/></symbol>
+  </svg>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="page">
+    <nav class="topbar" aria-label="周末有空">
+      <div class="brand"><span class="brand-mark"><svg class="icon"><use href="#i-spark"/></svg></span><span class="brand-name">周末有空<span>WEEKEND CLUB</span></span></div>
+      <span class="topbar-note"><span class="live-dot"></span> 好朋友，好周末</span>
+    </nav>
+    <section id="loading" class="state" role="status"><div class="state-orbit"><svg class="icon"><use href="#i-spark"/></svg></div><p class="state-text">正在准备这周末…</p></section>
+    <section id="error" class="state hidden" role="alert">
+      <svg class="icon state-icon"><use href="#i-calendar"/></svg><p id="errorText" class="state-title"></p>
+      <button id="retryBtn" class="btn btn-primary state-btn" type="button">重新连接</button>
+      <button id="newRoomBtn" class="btn btn-ghost state-btn hidden" type="button">创建新房间</button>
+    </section>
+    <main id="content" class="hidden">
+      <header class="hero">
+        <div class="hero-copy"><p class="eyebrow"><span></span> LESS PLANNING, MORE WEEKEND</p><h1>有空，<span>就一起。</span><svg class="icon hero-spark" aria-hidden="true"><use href="#i-spark"/></svg></h1><p class="hero-tagline">好周末，从凑齐大家开始。</p></div>
+        <div class="week-card">
+          <svg class="week-orbit" viewBox="0 0 200 200" fill="none" aria-hidden="true"><circle cx="100" cy="100" r="55" stroke="currentColor" stroke-opacity=".2"/><ellipse cx="100" cy="100" rx="89" ry="32" transform="rotate(-35 100 100)" stroke="currentColor" stroke-opacity=".4"/><ellipse cx="100" cy="100" rx="89" ry="32" transform="rotate(35 100 100)" stroke="currentColor" stroke-opacity=".15"/><circle cx="162" cy="49" r="7" fill="currentColor"/><circle cx="42" cy="148" r="3" fill="currentColor" fill-opacity=".5"/></svg>
+          <p class="week-eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg> THIS WEEKEND</p>
+          <div class="hero-row"><h2 id="weekLabel" class="hero-date"></h2><span id="status" class="status"></span></div><p id="heroSub" class="hero-sub"></p>
+        </div>
+      </header>
+      <section id="allFreeBanner" class="all-free-banner hidden" role="status" aria-live="polite">
+        <div class="all-free-copy"><p class="all-free-eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> PERFECT MATCH · 不用再凑时间</p><h2 class="all-free-title">全员有空<span>约起来！</span></h2><p id="allFreeText" class="all-free-text"></p><div id="allFreeSlots" class="all-free-slots"></div></div>
+        <div class="match-emblem" aria-hidden="true"><div class="match-ring"></div><div class="match-ring match-ring-two"></div><svg class="icon"><use href="#i-spark"/></svg><span class="match-star match-star-one">✦</span><span class="match-star match-star-two">✦</span><span class="match-caption">LET'S GO!</span></div>
+        <div id="celebration" class="celebration" aria-hidden="true"></div>
+      </section>
+      <div class="dashboard">
+        <section class="selection-panel panel" aria-labelledby="selectionTitle">
+          <div class="panel-head"><div><p class="section-kicker">01 / YOUR TIME</p><h2 id="selectionTitle" class="section-title">我的空闲时段</h2></div><span id="saveIndicator" class="save-indicator" role="status" aria-live="polite">点选即偘宆</span></div>
+          <p class="section-sub">有空的半天都选上，剩下的交给我们。</p>
+          <div class="slot-legend"><span><i class="legend-dot selected-dot"></i>我有空</span><span><i class="legend-dot match-dot"></i>全员有空</span></div>
+          <div id="slots" class="grid"></div>
+          <div class="quick" role="group" aria-label="快捷选择空闲时段"><button class="chip" type="button" data-mode="all" aria-pressed="false">整个周末</button><button class="chip" type="button" data-mode="sat" aria-pressed="false">只周六</button><button class="chip" type="button" data-mode="sun" aria-pressed="false">只周日</button><button class="chip" type="button" data-mode="none" aria-pressed="false">都没空</button></div>
+          <p class="selection-note"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> 随时可以改，大家看到的结果会自动更新。</p>
+        </section>
+        <aside class="group-panel" aria-label="小圈子的空闲汇总">
+          <section id="result" class="result panel" aria-labelledby="resultTitle"><div class="result-top"><p class="section-kicker">02 / THE PLAN</p><span class="result-symbol" aria-hidden="true"><svg class="icon"><use href="#i-spark"/></svg></span></div><p id="resultEyebrow" class="result-eyebrow"></p><h2 id="resultTitle" class="result-title"></h2><p id="resultDetail" class="result-detail"></p><div id="resultBars" class="result-bars" aria-label="各时段空闲人数"></div></section>
+          <section class="members panel" aria-labelledby="membersTitle"><div class="members-head"><h2 id="membersTitle" class="section-title">周末搭子<span id="memberCount" class="member-count"></span></h2><span id="membersProgress" class="members-progress"></span></div><div id="memberProgressBar" class="member-progress-track" role="progressbar" aria-label="成员填写进度" aria-valuemin="0" aria-valuemax="100"><span id="memberProgressFill"></span></div><div id="members" class="members-list"></div><p id="unfilledText" class="members-hint"></p></section>
+        </aside>
+      </div>
+      <section class="invite" aria-label="邀请朋友"><div class="invite-copy"><span class="invite-icon"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg></span><div><h2>周末的快乐，差一个你。</h2><p>把链接发到群里，让大家一起选。</p></div></div><button id="copyBtn" class="btn btn-primary" type="button"><svg class="icon" aria-hidden="true"><use href="#i-link"/></svg> 复制群链接 <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button></section>
+      <footer class="footer"><p id="footerHint"></p><button id="refreshBtn" class="refresh-btn" type="button"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg> 刷新结果</button></footer>
+      <p class="page-signoff">MADE FOR GOOD TIMES <span>✦</span> 周末见</p>
+    </main>
+  </div>
+  <div id="nicknameModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="nicknameTitle" aria-describedby="nicknameDescription"><div class="modal-mask"></div><div class="modal-card"><span class="modal-mark"><svg class="icon" aria-hidden="true"><use href="#i-spark"/></svg></span><p class="modal-eyebrow">WELCOME TO THE WEEKEND CLUB</p><h2 id="nicknameTitle" class="modal-title">先认识一下？</h2><p id="nicknameDescription" class="modal-sub">留个大家熟悉的昵称，一起把周末安排上。</p><label class="input-label" for="nicknameInput">你的昵称</label><input id="nicknameInput" class="modal-input" type="text" placeholder="朋友们怎么称呼你？" maxlength="12" autocomplete="nickname"><button id="joinBtn" class="btn btn-primary" type="button">加入小圈子 <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button><p class="modal-note">不用注册，选完就能出发。</p></div></div>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
