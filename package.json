@@ -1,0 +1,11 @@
+{
+  "name": "weekend-free-h5",
+  "version": "1.0.0",
+  "private": true,
+  "description": "微信群周末半天空闲收集 H5",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/week.test.js tests/stats.test.js tests/state.test.js tests/view.test.js tests/api.test.js",
+    "check": "node --check server.js && node --check server/app.js && node --check server/lib/week.js && node --check server/lib/stats.js && node --check server/lib/state.js && node --check server/lib/view.js && node --check server/lib/store.js && node --check public/app.js"
+  }
+}

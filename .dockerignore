@@ -1,0 +1,8 @@
+data/
+node_modules/
+tests/
+*.log
+.DS_Store
+Thumbs.db
+Dockerfile
+.dockerignore
