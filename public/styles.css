@@ -131,81 +131,180 @@ button:disabled { cursor: wait; opacity: .65; }
 .group-panel { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
 .result { position: relative; overflow: hidden; padding: 22px 24px; transition: border-color 300ms, background 300ms; }
 .result-top { display: flex; align-items: center; justify-content: space-between; }
-.result-symbol { display: grid; place-items: center; width: 28px; height: 28px; bÜ™\‹\˜Y]\ÎˆÈ˜XÚÙÜ›Ý[™ˆÙ™™™™™ŒŽÈÛÛÜŽˆ˜\ŠKXXØÙ[
-NÈB‹œ™\Ý[\Þ[X›ÛšXÛÛˆÈÚYˆMÜÈZYÚˆMÜÈB‹œ™\Ý[Y^YXœ›ÝÈÈX\™Ú[‹]ÜˆL\ÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆLÈB‹œ™\Ý[]]HÈX\™Ú[‹]ÜˆÈ›Û\Ú^™NˆŒ\È›Û]ÙZYÚˆLÈ[™KZZYÚˆKNÈÝ™\™›ÝË]Ü˜\ˆ[ž]Ú\™NÈB‹œ™\Ý[Y]Z[ÈX\™Ú[‹]ÜˆÜÈÛÛÜŽˆØYY˜ÎÈ›Û\Ú^™NˆL\È[™KZZYÚˆKÎÈB‹œ™\Ý[™ÛÛÙÈ›Ü™\‹XÛÛÜŽˆØÙNLÈ˜XÚÙÜ›Ý[™ˆ[™X\‹YÜ˜YY[
-LÍYYËÌŒÌ˜ÌŒ‹ÌXLXŒŒÈL	JNÈB‹œ™\Ý[™ÛÛÙœ™\Ý[Y^YXœ›ÝËœ™\Ý[™ÛÛÙœ™\Ý[\Þ[X›ÛÈÛÛÜŽˆ˜\ŠK[X]Ú
-NÈB‹œ™\Ý[Ø\›ˆœ™\Ý[Y^YXœ›ÝÈÈÛÛÜŽˆ˜\ŠK]Ø\›ŠNÈB‹œ™\Ý[X˜\œÈÈ\Ü^NˆÜšYÈØ\ˆ\ÈX\™Ú[‹]ÜˆN\ÈY[™Ë]ÜˆMÜÈ›Ü™\‹]Üˆ\ÛÛY˜\ŠK[[™JNÈB‹œ™\Ý[X˜\‹\›ÝÈÈ\Ü^NˆÜšYÈÜšY][\]KXÛÛ[[œÎˆŒZ[›X^
-YœŠHÍ\È[YÛ‹Z][\ÎˆÙ[\ŽÈØ\ˆLÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆL\ÈB‹œ™\Ý[X˜\‹]˜XÚÈÈZYÚˆ\ÈÝ™\™›ÝÎˆY[ŽÈ›Ü™\‹\˜Y]\ÎˆÈ˜XÚÙÜ›Ý[™ˆÙ™™™™™ŒÈB‹œ™\Ý[X˜\‹Yš[È\Ü^Nˆ›ØÚÎÈZYÚˆL	NÈ›Ü™\‹\˜Y]\Îˆ[š\š]È˜XÚÙÜ›Ý[™ˆ˜\ŠKXXØÙ[
-NÈ˜[œÚ][ÛŽˆÚYL\ÈÝXšXËX™^šY\ŠŒ‹ŽŒ‹JNÈB‹œ™\Ý[X˜\‹\›ÝË›X]ÚÈÛÛÜŽˆ˜\ŠK[X]Ú
-NÈB‹œ™\Ý[X˜\‹\›ÝË›X]Úœ™\Ý[X˜\‹Yš[È˜XÚÙÜ›Ý[™ˆ˜\ŠK[X]Ú
-NÈB‹œ™\Ý[X˜\‹XÛÝ[È^X[YÛŽˆšYÚÈ›Û]˜\šX[[[Y\šXÎˆX[\‹[[\ÎÈÚ]K\ÜXÙNˆ›ÝÜ˜\ÈB‹›Y[X™\œÈÈY[™ÎˆŒÈB‹›Y[X™\œËZXYÈ\Ü^Nˆ›^È[YÛ‹Z][\ÎˆÙ[\ŽÈ\ÝYžKXÛÛ[ˆÜXÙKX™]ÙY[ŽÈØ\ˆLÈB‹›Y[X™\œËZXYœÙXÝ[Û‹]]HÈX\™Ú[ŽˆÈ›Û\Ú^™NˆM\ÈB‹›Y[X™\‹XÛÝ[ÈX\™Ú[‹[YˆÜÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆLÈ›Û]ÙZYÚˆÈB‹›Y[X™\œË\›ÙÜ™\ÜÈÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆL\È›Û]˜\šX[[[Y\šXÎˆX[\‹[[\ÎÈB‹›Y[X™\‹\›ÙÜ™\ÜË]˜XÚÈÈZYÚˆÜÈX\™Ú[ŽˆMMÜÈÝ™\™›ÝÎˆY[ŽÈ›Ü™\‹\˜Y]\ÎˆÜÈ˜XÚÙÜ›Ý[™ˆÙ™™™™™ŒÈB‹›Y[X™\‹\›ÙÜ™\ÜË]˜XÚÈˆÜ[ˆÈ\Ü^Nˆ›ØÚÎÈZYÚˆL	NÈÚYˆÈ˜XÚÙÜ›Ý[™ˆ˜\ŠKXXØÙ[
-NÈ›Ü™\‹\˜Y]\Îˆ[š\š]È˜[œÚ][ÛŽˆÚYŒ\ÈÝXšXËX™^šY\ŠŒ‹ŽŒ‹JNÈB‹›Y[X™\œË[\ÝÈ\Ü^Nˆ›^È›^]Ü˜\ˆÜ˜\ÈØ\ˆÜÈB‹›Y[X™\ˆÈ\Ü^Nˆ[›[™KY›^È[YÛ‹Z][\ÎˆÙ[\ŽÈX^]ÚYˆL	NÈY[™Îˆ\\\\È›Ü™\Žˆ\ÛÛY˜\ŠK[[™JNÈ›Ü™\‹\˜Y]\Îˆ\È˜XÚÙÜ›Ý[™ˆÙ™™™™™ŒÎÈ›Û\Ú^™NˆL\ÈB‹›Y[X™\‹™[\HÈ›Ü™\‹\Ý[Nˆ\ÚYÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈB‹›Y[X™\‹X]˜]\ˆÈ\Ü^Nˆ[›[™KY›^È[YÛ‹Z][\ÎˆÙ[\ŽÈ\ÝYžKXÛÛ[ˆÙ[\ŽÈÚYˆŒÜÈZYÚˆŒÜÈ›^ˆ›Û™NÈX\™Ú[‹\šYÚˆœÈ›Ü™\‹\˜Y]\ÎˆœÈ˜XÚÙÜ›Ý[™ˆÌÍÌÌÈÛÛÜŽˆÙX˜Y™ŽÈ›Û\Ú^™NˆLÈ›Û]ÙZYÚˆŒÈB‹›Y[X™\Ž›XÚ[
-Ûˆ
-ÈŠH›Y[X™\‹X]˜]\ˆÈ˜XÚÙÜ›Ý[™ˆÌ™LÎLÌŽÈÛÛÜŽˆØÍ˜NNÈB‹›Y[X™\Ž›XÚ[
-ÛŠH›Y[X™\‹X]˜]\ˆÈ˜XÚÙÜ›Ý[™ˆÌÙLÍ™NÈÛÛÜŽˆÙNŽNXNÈB‹›Y[X™\‹™[\H›Y[X™\‹X]˜]\ˆÈ˜XÚÙÜ›Ý[™ˆÌ˜Ì™ÍNÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈB‹›Y[X™\‹[˜[YHÈÝ™\™›ÝË]Ü˜\ˆ[ž]Ú\™NÈB‹›Y[X™\‹[YHÈX\™Ú[‹[YˆÜÈÛÛÜŽˆ˜\ŠKXXØÙ[
-NÈ›Û\Ú^™Nˆ\ÈB‹›Y[X™\‹Yš[YÈÚYˆLÈZYÚˆLÈX\™Ú[‹[YˆÈÛÛÜŽˆ˜\ŠK[X]Ú
-NÈÝ›ÚÙK]ÚYˆ‹NÈB‹›Y[X™\‹[]HÈY[™ÎˆÈX\™Ú[‹[YˆÈ›Ü™\‹\˜Y]\ÎˆÈ˜XÚÙÜ›Ý[™ˆÙY™NLMNÈÛÛÜŽˆ˜\ŠK]Ø\›ŠNÈ›Û\Ú^™NˆÈB‹›Y[X™\œËZ[ÈX\™Ú[‹]ÜˆLœÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆLÈÝ™\™›ÝË]Ü˜\ˆ[ž]Ú\™NÈB‹›Y[X™\œËZ[™[\HÈ\Ü^Nˆ›Û™NÈB‹›Y[X™\œËY[\HÈ›Û\Ú^™NˆL\ÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈB‚‹Êˆ[š]H[Ý\ˆ[ÜKˆ
-‹Â‹š[š]HÈ\Ü^Nˆ›^È[YÛ‹Z][\ÎˆÙ[\ŽÈ\ÝYžKXÛÛ[ˆÜXÙKX™]ÙY[ŽÈØ\ˆÈX\™Ú[‹]ÜˆŒœÈY[™ÎˆŒÜ\È›Ü™\Žˆ\ÛÛY˜\ŠK[[™JNÈ›Ü™\‹\˜Y]\ÎˆNÈ˜XÚÙÜ›Ý[™ˆÌNLNLŒÈB‹š[š]KXÛÜHÈ\Ü^Nˆ›^È[YÛ‹Z][\ÎˆÙ[\ŽÈØ\ˆM\ÈB‹š[š]KZXÛÛˆÈ\Ü^NˆÜšYÈXÙKZ][\ÎˆÙ[\ŽÈÚYˆÈZYÚˆÈ›^ˆ›Û™NÈ›Ü™\Žˆ\ÛÛYØXLY˜LÌÈ›Ü™\‹\˜Y]\ÎˆLœÈÛÛÜŽˆ˜\ŠKXXØÙ[
-NÈ˜XÚÙÜ›Ý[™ˆØXLY˜LÈB‹š[š]KXÛÜHˆÈ›Û\Ú^™NˆMÈ›Û]ÙZYÚˆŒÈB‹š[š]KXÛÜHÈX\™Ú[‹]ÜˆÜÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆLÈB‹˜ˆÈÜÚ][ÛŽˆ™[]]™NÈ\Ü^Nˆ[›[™KY›^È[YÛ‹Z][\ÎˆÙ[\ŽÈ\ÝYžKXÛÛ[ˆÙ[\ŽÈØ\ˆLÈZYÚˆœÈY[™ÎˆŒÈ›Ü™\Žˆ\ÛÛY˜[œÜ\™[È›Ü™\‹\˜Y]\ÎˆLÈ›Û\Ú^™NˆLœÈ›Û]ÙZYÚˆLÈ˜[œÚ][ÛŽˆ˜[œÙ›Ü›HN\Ë›Þ\ÚYÝÈŒ\Ë˜XÚÙÜ›Ý[™Œ\ÎÈB‹˜Ž˜XÝ]™HÈ˜[œÙ›Ü›NˆØØ[JŽMÊNÈB‹˜‹\š[X\žHÈ˜XÚÙÜ›Ý[™ˆ˜\ŠKXXØÙ[
-NÈÛÛÜŽˆÌYLÍÈB‹˜‹\š[X\žHšXÛÛˆÈÚYˆMÜÈZYÚˆMÜÈB‹˜‹YÚÜÝÈ›Ü™\‹XÛÛÜŽˆ˜\ŠK[[™JNÈ˜XÚÙÜ›Ý[™ˆ˜[œÜ\™[ÈÛÛÜŽˆ˜\ŠKZ[šÊNÈB‹š[š]H˜ˆÈ›^ˆ›Û™NÈZ[‹]ÚYˆŒÈB‹™›ÛÝ\ˆÈ\Ü^Nˆ›^È[YÛ‹Z][\ÎˆÙ[\ŽÈ\ÝYžKXÛÛ[ˆÜXÙKX™]ÙY[ŽÈØ\ˆLœÈY[™ÎˆMœÜÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆLÈB‹œ™Yœ™\ÚXˆÈ\Ü^Nˆ[›[™KY›^È[YÛ‹Z][\ÎˆÙ[\ŽÈØ\ˆœÈ›^ˆ›Û™NÈY[™ÎˆÜÜÈ›Ü™\ŽˆÈ˜XÚÙÜ›Ý[™ˆ˜[œÜ\™[ÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆLÈB‹œ™Yœ™\ÚXˆšXÛÛˆÈÚYˆLœÈZYÚˆLœÈB‹œ™Yœ™\ÚX‹œ™Yœ™\Ú[™ÈšXÛÛˆÈ[š[X][ÛŽˆš[™Ë]\›ˆ\È[™X\ˆ[™š[š]NÈB‹œYÙK\ÚYÛ›Ù™ˆÈX\™Ú[‹]ÜˆM\ÈÛÛÜŽˆÍÌÍÌÎŽÈ^X[YÛŽˆÙ[\ŽÈ›Û\Ú^™NˆÈ]\‹\ÜXÚ[™ÎˆKŽÈB‹œYÙK\ÚYÛ›Ù™ˆˆÜ[ˆÈX\™Ú[ŽˆÜÈÛÛÜŽˆ˜\ŠKXXØÙ[
-NÈ›Û\Ú^™NˆLœÈB‚‹ÊˆØY[™Ë›Ú[š[™È[™ÛX[™YY˜XÚËˆ
-‹Â‹œÝ]HÈZ[‹ZZYÚˆM]šÈ\Ü^Nˆ›^È›^Y\™XÝ[ÛŽˆÛÛ[[ŽÈ[YÛ‹Z][\ÎˆÙ[\ŽÈ\ÝYžKXÛÛ[ˆÙ[\ŽÈØ\ˆMœÈB‹œÝ]K[Ü˜š]È\Ü^NˆÜšYÈXÙKZ][\ÎˆÙ[\ŽÈÚYˆM\ÈZYÚˆM\È›Ü™\Žˆ\\ÚY˜\ŠKXXØÙ[
-NÈ›Ü™\‹\˜Y]\ÎˆL	NÈÛÛÜŽˆ˜\ŠKXXØÙ[
-NÈ[š[X][ÛŽˆš[™Ë]\›ˆÈ[™X\ˆ[™š[š]NÈB‹œÝ]K[Ü˜š]šXÛÛˆÈÚYˆœÈZYÚˆœÈB‹œÝ]KZXÛÛˆÈÚYˆÈZYÚˆÈÛÛÜŽˆ˜\ŠKXXØÙ[
-NÈB‹œÝ]K]^È›Û\Ú^™NˆLÜÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈB‹œÝ]K]]HÈX^]ÚYˆÌŒÈ^X[YÛŽˆÙ[\ŽÈ›Û\Ú^™NˆMœÈ›Û]ÙZYÚˆŒÈB‹œÝ]KXˆÈÚYˆÈX^]ÚYˆL	NÈB‹›[Ù[ÈÜÚ][ÛŽˆš^YÈ[œÙ]ˆÈ‹Z[™^ˆLÈ\Ü^Nˆ›^È[YÛ‹Z][\ÎˆÙ[\ŽÈ\ÝYžKXÛÛ[ˆÙ[\ŽÈÝ™\™›ÝË^Nˆ]]ÎÈY[™ÎˆŽŒÈB‹›[Ù[[X\ÚÈÈÜÚ][ÛŽˆš^YÈ[œÙ]ˆÈ˜XÚÙÜ›Ý[™ˆÌÌ˜™È˜XÚÙ›ÜYš[\Žˆ›\ŠL
-NÈ]ÙXšÚ]X˜XÚÙ›ÜYš[\Žˆ›\ŠL
-NÈB‹›[Ù[XØ\™ÈÜÚ][ÛŽˆ™[]]™NÈÚYˆL	NÈX^]ÚYˆÎ\ÈY[™ÎˆÌÈ›Ü™\Žˆ\ÛÛYØXLY˜MÈ›Ü™\‹\˜Y]\ÎˆœÈ˜XÚÙÜ›Ý[™ˆÌXŒXÌNÈ›Þ\ÚYÝÎˆÌŽÈ[š[X][ÛŽˆ[Ù[Z[ˆÍL\ÈÝXšXËX™^šY\ŠŒ‹ŽŒ‹JH›ÝÈB‹›[Ù[[X\šÈÈ\Ü^NˆÜšYÈXÙKZ][\ÎˆÙ[\ŽÈÚYˆÜÈZYÚˆÜÈX\™Ú[‹X›ÝÛNˆ\È›Ü™\‹\˜Y]\ÎˆMÈ˜XÚÙÜ›Ý[™ˆ˜\ŠKXXØÙ[
-NÈÛÛÜŽˆÌYLÍÈ˜[œÙ›Ü›Nˆ›Ý]JNYYÊNÈB‹›[Ù[[X\šÈšXÛÛˆÈÚYˆÌÈZYÚˆÌÈB‹›[Ù[Y^YXœ›ÝÈÈÛÛÜŽˆ˜\ŠKXXØÙ[
-NÈ›Û\Ú^™NˆÈ]\‹\ÜXÚ[™ÎˆKÈB‹›[Ù[]]HÈX\™Ú[‹]ÜˆÜÈ›Û\Ú^™NˆŽÈ›Û]ÙZYÚˆÌÈB‹›[Ù[\ÝXˆÈX\™Ú[‹]ÜˆÜÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆLœÈ[™KZZYÚˆKŽÈB‹š[œ][X™[È\Ü^Nˆ›ØÚÎÈX\™Ú[ŽˆŒÜÜÈ›Û\Ú^™NˆL\ÈÛÛÜŽˆØØ˜ÌÎÈB‹›[Ù[Z[œ]ÈÚYˆL	NÈZYÚˆÈY[™ÎˆLÜÈ›Ü™\Žˆ\ÛÛYÍMMNÈ›Ü™\‹\˜Y]\ÎˆLÈ˜XÚÙÜ›Ý[™ˆÌMMLXÎÈÛÛÜŽˆ˜\ŠKZ[šÊNÈ›Û\Ú^™NˆMœÈÝ][™Nˆ›Û™NÈ˜[œÚ][ÛŽˆ›Ü™\‹XÛÛÜˆŒ\Ë›Þ\ÚYÝÈŒ\ÎÈB‹›[Ù[Z[œ]ŽœXÙZÛ\ˆÈ›Û\Ú^™NˆLœÈÛÛÜŽˆÎNNLÈB‹›[Ù[Z[œ]™›ØÝ\ÈÈ›Ü™\‹XÛÛÜŽˆ˜\ŠKXXØÙ[
-NÈ›Þ\ÚYÝÎˆÜØXLY˜LLŽÈB‹›[Ù[XØ\™˜ˆÈÚYˆL	NÈX\™Ú[‹]ÜˆMÜÈ›Û\Ú^™NˆLÜÈB‹›[Ù[[›ÝHÈX\™Ú[‹]ÜˆM\ÈÛÛÜŽˆ˜\ŠK[]]Y
-NÈ›Û\Ú^™NˆLÈ^X[YÛŽˆÙ[\ŽÈB‹Ø\ÝÈÜÚ][ÛŽˆš^YÈYˆL	NÈ›ÝÛNˆØ[ÊŽ
-È[ŠØY™KX\™XKZ[œÙ]X›ÝÛJJNÈ‹Z[™^ˆŒÈÚYˆX^XÛÛ[ÈX^]ÚYˆØ[ÊLÈHÌœ
-NÈY[™ÎˆL\NÈ›Ü™\Žˆ\ÛÛYØXLY˜MMNÈ›Ü™\‹\˜Y]\ÎˆLœÈ˜XÚÙÜ›Ý[™ˆÌ˜LŒÎÈÛÛÜŽˆ˜\ŠKZ[šÊNÈ›Þ\ÚYÝÎˆÌÌŽÈ›Û\Ú^™NˆLœÈ˜[œÙ›Ü›Nˆ˜[œÛ]V
-ML	JNÈÚ[\‹Y]™[Îˆ›Û™NÈB‹Ø\Ý››Ý
-šY[ŠHÈ[š[X][ÛŽˆØ\ÝZ[ˆŒŒ\ÈX\ÙK[Ý]›ÝÈB˜]ÛŽ™›ØÝ\Ë]š\ÚX›K[œ]™›ØÝ\Ë]š\ÚX›HÈÝ][™NˆœÛÛY˜\ŠKXXØÙ[
-NÈÝ][™K[Ù™œÙ]ˆÈB‚‹Êˆ[š[X]H[šY\ÈÛ˜ÙNÈÛ[™ÈÚÝ[™]™\ˆ™\Ý\HYÙKˆ
-‹Â›XZ[Ž››Ý
-šY[ŠHš\›ÈÈ[š[X][ÛŽˆš\ÙKZ[ˆML\ÈX\ÙK[Ý]›ÝÈB›XZ[Ž››Ý
-šY[ŠH™\Ú›Ø\™È[š[X][ÛŽˆš\ÙKZ[ˆL\È\ÈX\ÙK[Ý]›ÝÈB›XZ[Ž››Ý
-šY[ŠHš[š]HÈ[š[X][ÛŽˆš\ÙKZ[ˆL\ÈML\ÈX\ÙK[Ý]›ÝÈBÙ^Yœ˜[Y\Èš\ÙKZ[ˆÈœ›ÛHÈÜXÚ]NˆÈ˜[œÙ›Ü›Nˆ˜[œÛ]VJLÜ
-NÈHÈÈÜXÚ]NˆNÈ˜[œÙ›Ü›Nˆ˜[œÛ]VJ
-NÈHBÙ^Yœ˜[Y\ÈX]ÚZ[ˆÈœ›ÛHÈÜXÚ]NˆÈ˜[œÙ›Ü›Nˆ˜[œÛ]VJL
-HØØ[JŽN
-NÈHÈÈÜXÚ]NˆNÈ˜[œÙ›Ü›Nˆ›Û™NÈHBÙ^Yœ˜[Y\È[Ù[Z[ˆÈœ›ÛHÈÜXÚ]NˆÈ˜[œÙ›Ü›Nˆ˜[œÛ]VJN
-HØØ[JŽMÊNÈHÈÈÜXÚ]NˆNÈ˜[œÙ›Ü›Nˆ›Û™NÈHBÙ^Yœ˜[Y\ÈØ\ÝZ[ˆÈœ›ÛHÈÜXÚ]NˆÈ˜[œÛ]NˆÈHÈÈÜXÚ]NˆNÈ˜[œÛ]NˆÈHBÙ^Yœ˜[Y\ÈÜ˜š]Y›Ø]È	KL	HÈ˜[œÙ›Ü›Nˆ˜[œÛ]VJ
-H›Ý]JLÙYÊNÈHL	HÈ˜[œÙ›Ü›Nˆ˜[œÛ]VJMÜ
-H›Ý]JÙYÊNÈHBÙ^Yœ˜[Y\ÈÜ\šÛK]\›ˆÈ	KL	HÈ›Ý]NˆNYÎÈHL	HÈ›Ý]NˆLÙYÎÈHBÙ^Yœ˜[Y\Èš[™Ë]\›ˆÈÈÈ˜[œÙ›Ü›Nˆ›Ý]JÍŒYÊNÈHBÙ^Yœ˜[Y\ÈÝ\[ÙHÈL	HÈÜXÚ]NˆŒÍNÈ˜[œÙ›Ü›NˆØØ[JŽ
-NÈHBÙ^Yœ˜[Y\ÈÚXÚË\ÜÈ	HÈ˜[œÙ›Ü›NˆØØ[JMJNÈHIHÈ˜[œÙ›Ü›NˆØØ[JKŒN
-NÈHL	HÈ˜[œÙ›Ü›NˆØØ[JJNÈHBÙ^Yœ˜[Y\Èš\K[Ý]ÈÈÈÜXÚ]NˆÈ˜[œÙ›Ü›Nˆ˜[œÛ]JML	KML	JHØØ[J
-NÈHBÙ^Yœ˜[Y\ÈÛÛ™™]KX\œÝÈ	HÈÜXÚ]NˆŽNÈ˜[œÙ›Ü›Nˆ˜[œÛ]J
-H›Ý]J
-NÈHL	HÈÜXÚ]NˆÈ˜[œÙ›Ü›Nˆ˜[œÛ]J˜\ŠKY
-K˜\ŠKYJJH›Ý]J˜\ŠK\Ü[ŠJNÈHB‚YYXH
-Ý™\ŽˆÝ™\ŠHÂˆœÛÝšÝ™\ˆÈ˜[œÙ›Ü›Nˆ˜[œÛ]VJLÜ
-NÈ›Ü™\‹XÛÛÜŽˆÍÍÍÌÈBˆœÛÝ›ÛŽšÝ™\ˆÈ›Ü™\‹XÛÛÜŽˆÙØÌY™ŽÈ›Þ\ÚYÝÎˆœŒØXLY˜LLŽÈBˆœÛÝ˜[Yœ™YNšÝ™\ˆÈ›Ü™\‹XÛÛÜŽˆÙLY™˜È›Þ\ÚYÝÎˆœØÙNŒNÈBˆ˜Ú\šÝ™\ˆÈÛÛÜŽˆ˜\ŠKZ[šÊNÈ›Ü™\‹XÛÛÜŽˆÍÍÌÎÈBˆ˜‹\š[X\žNšÝ™\ˆÈ˜XÚÙÜ›Ý[™ˆØÍ˜™ŽÈ›Þ\ÚYÝÎˆ\ŒÜØXLY˜LNÈBˆœ™Yœ™\ÚXŽšÝ™\ˆÈÛÛÜŽˆ˜\ŠKXXØÙ[
-NÈBŸBYYXH
-X^]ÚYˆÍŒ
-HÂˆœYÙHÈX^]ÚYˆŒŒÈY[™ÎˆŒÜŒØ[Ê
-È[ŠØY™KX\™XKZ[œÙ]X›ÝÛJJNÈBˆš\›ÈÈ[YÛ‹Z][\Îˆ›^\Ý\È›^Y\™XÝ[ÛŽˆÛÛ[[ŽÈØ\ˆŒÜÈY[™ÎˆÌœÈBˆš\›ÈHÈ›Û\Ú^™NˆÈBˆÙYZËXØ\™ÈÚYˆL	NÈZ[‹]ÚYˆÈY[™ÎˆÈ›Ü™\ŽˆÈBˆÙYZË[Ü˜š]ÈÚYˆMLÈZYÚˆMLÈÜˆLLÍ\ÈšYÚˆNÈÜXÚ]NˆŒÎÈBˆÙYZËY^YXœ›ÝÈÈ›Û\Ú^™NˆÈBˆš\›Ë\›ÝÈÈX\™Ú[‹]ÜˆœÈBˆš\›ËY]HÈ›Û\Ú^™NˆŒÜÈBˆš\›Ë\ÝXˆÈX\™Ú[‹]ÜˆœÈBˆ™\Ú›Ø\™ÈÜšY][\]KXÛÛ[[œÎˆZ[›X^
-YœŠNÈØ\ˆMœÈBˆœÙ[XÝ[Û‹\[™[ÈY[™ÎˆŒœÈBˆœÛÝÈZ[‹ZZYÚˆMŒœÈBˆœÛÝ[X™[È›Û\Ú^™NˆNÈBˆœÛÝXÛÝ[È›Û\Ú^™NˆL\ÈBˆœÛÝ[˜[Y\ÈÈ›Û\Ú^™NˆLÈBˆ˜Ú\ÈZ[‹ZZYÚˆœÈ›Û\Ú^™NˆL\ÈY[™ÎˆLœÈBˆ™Ü›Ý\\[™[ÈØ\ˆMœÈBˆœ™\Ý[ÈY[™ÎˆŒ\ŒÜÈBˆ˜[Yœ™YKX˜[›™\ˆÈØ\ˆÈY[™ÎˆŒÜÈX\™Ú[‹X›ÝÛNˆMœÈBˆ˜[Yœ™YK]]HÈ›Û\Ú^™NˆŽ\ÈBˆ˜[Yœ™YK]]HˆÜ[ˆÈ\Ü^Nˆ›ØÚÎÈ›Û\Ú^™NˆN\ÈX\™Ú[‹]ÜˆLÜÈBˆ˜[Yœ™YK]]HˆÜ[ŽŽ˜™Y›Ü™HÈÛÛ[ˆ›Û™NÈBˆ›X]ÚY[X›[HÈÚYˆÈZYÚˆÈX\™Ú[‹\šYÚˆÈBˆ›X]ÚY[X›[HˆšXÛÛˆÈÚYˆÈZYÚˆÈBˆ›X]Ú\š[™ÈÈ[œÙ]ˆÈBˆ›X]Ú\š[™Ë]ÛÈÈ[œÙ]ˆMÜÈBˆ›X]ÚXØ\[ÛˆÈ›ÝÛNˆMÈ›Û\Ú^™NˆÜÈBˆ˜[Yœ™YK\ÛÝÈÈØ\ˆœÈBˆ›X]Ú\ÛÝÈY[™ÎˆÜÈ›Û\Ú^™NˆLÈBˆš[š]HÈ[YÛ‹Z][\ÎˆÝ™]ÚÈ›^Y\™XÝ[ÛŽˆÛÛ[[ŽÈØ\ˆNÈX\™Ú[‹]ÜˆMÜÈY[™ÎˆŒ\ŒÜÈBˆš[š]H˜ˆÈÚYˆL	NÈBˆš[š]H˜ˆˆšXÛÛŽ›\ÝXÚ[ÈX\™Ú[‹[Yˆ]]ÎÈBˆš[š]H˜ˆˆšXÛÛŽ™š\œÝXÚ[ÈX\™Ú[‹\šYÚˆ]]ÎÈBˆ™›ÛÝ\ˆÈ[YÛ‹Z][\Îˆ›^\Ý\È›Û\Ú^™Nˆ\ÈBˆœ™Yœ™\ÚXˆÈY[™Ë]ÜˆÈ›Û\Ú^™Nˆ\ÈBŸBYYXH
-X^]ÚYˆÎ
-HÂˆœYÙHÈY[™Ë[YˆM\ÈY[™Ë\šYÚˆM\ÈBˆÜ˜\ˆÈY[™ËX›ÝÛNˆN\ÈBˆÜ˜\‹[›ÝHÈ›Û\Ú^™NˆLÈØ\ˆ\ÈBˆ˜œ˜[™[X\šÈÈÚYˆÍ\ÈZYÚˆÍ\È›Ü™\‹\˜Y]\ÎˆL\ÈBˆ˜œ˜[™[˜[YHÈ›Û\Ú^™NˆM\ÈBˆ˜œ˜[™[˜[YHˆÜ[ˆÈ›Û\Ú^™NˆÜÈ]\‹\ÜXÚ[™ÎˆK\ÈBˆš\›ÈHÈ›Û\Ú^™NˆÍÈBˆ™^YXœ›ÝÈÈ›Û\Ú^™NˆÜÈ]\‹\ÜXÚ[™ÎˆKÈBˆÙYZË[Ü˜š]ÈÚYˆLLÈZYÚˆLLÈÜˆLLNÈšYÚˆLLÈÜXÚ]NˆŒNÈBˆœÙ[XÝ[Û‹\[™[ÈY[™ÎˆNM\ÈBˆœÙXÝ[Û‹]]HÈ›Û\Ú^™NˆMÜÈBˆœØ]™KZ[™XØ]ÜˆÈ›Û\Ú^™Nˆ\ÈBˆ™ÜšYÈØ\ˆÈBˆœÛÝÈZ[‹ZZYÚˆMŒÈY[™ÎˆLœÈBˆœÛÝ[X™[È›Û\Ú^™NˆMœÈBˆœÛÝY]HÈ\Ü^Nˆ›ØÚÎÈX\™Ú[‹[YˆÈX\™Ú[‹]ÜˆœÈBˆœÛÝXÛÝ[È›Û\Ú^™NˆLÈBˆ˜˜YÙHÈ›Û\Ú^™NˆÈY[™Îˆœ\ÈBˆ˜[Yœ™YKX˜[›™\ˆÈY[™ÎˆŒÈBˆ˜[Yœ™YK]]HÈ›Û\Ú^™NˆÜÈBˆ˜[Yœ™YKY^YXœ›ÝÈÈ›Û\Ú^™NˆÈ]\‹\ÜXÚ[™ÎˆŽÈBˆ›X]ÚY[X›[HÈÜÚ][ÛŽˆXœÛÛ]NÈÜˆÜÈšYÚˆŒÜÈÚYˆ\ÈZYÚˆ\ÈBˆ›X]ÚY[X›[HˆšXÛÛˆÈÚYˆÍÈZYÚˆÍÈBˆ˜[Yœ™YK]^È›Û\Ú^™NˆL\ÈBˆ˜[Yœ™YK\ÛÝÈÈ\Ü^NˆÜšYÈÜšY][\]KXÛÛ[[œÎˆ™\X]
-‹Z[›X^
-YœŠJNÈX^]ÚYˆŒŒÈBˆ›X]Ú\ÛÝÈ\ÝYžKXÛÛ[ˆÙ[\ŽÈBˆ›[Ù[XØ\™ÈY[™Îˆ\ÈBˆœÙ[XÝ[Û‹[›ÝHÈ›Û\Ú^™NˆÈBŸBYYXH
-™Y™\œË\™YXÙY[[Ý[ÛŽˆ™YXÙJHÂˆ
-‹
-ŽŽ˜™Y›Ü™K
-ŽŽ˜Y\ˆÈ[š[X][ÛŽˆ›Û™HZ[\Ü[È˜[œÚ][ÛŽˆ›Û™HZ[\Ü[ÈØÜ›ÛX™Z]š[ÜŽˆ]]ÈZ[\Ü[ÈBˆ˜Ù[Xœ˜][Û‹œš\HÈ\Ü^Nˆ›Û™NÈBŸCB
+.result-symbol { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: #ffffff06; color: var(--accent); }
+.result-symbol .icon { width: 17px; height: 17px; }
+.result-eyebrow { margin-top: 11px; color: var(--muted); font-size: 10px; }
+.result-title { margin-top: 4px; font-size: 21px; font-weight: 650; line-height: 1.45; overflow-wrap: anywhere; }
+.result-detail { margin-top: 7px; color: #adadbc; font-size: 11px; line-height: 1.7; }
+.result.good { border-color: #cdf58650; background: linear-gradient(135deg, #232c22, #1a1b23 90%); }
+.result.good .result-eyebrow, .result.good .result-symbol { color: var(--match); }
+.result.warn .result-eyebrow { color: var(--warn); }
+.result-bars { display: grid; gap: 9px; margin-top: 19px; padding-top: 17px; border-top: 1px solid var(--line); }
+.result-bar-row { display: grid; grid-template-columns: 60px minmax(0, 1fr) 35px; align-items: center; gap: 10px; color: var(--muted); font-size: 11px; }
+.result-bar-track { height: 5px; overflow: hidden; border-radius: 4px; background: #ffffff08; }
+.result-bar-fill { display: block; height: 100%; border-radius: inherit; background: var(--accent); transition: width 650ms cubic-bezier(.2,.8,.2,1); }
+.result-bar-row.match { color: var(--match); }
+.result-bar-row.match .result-bar-fill { background: var(--match); }
+.result-bar-count { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.members { padding: 20px 24px; }
+.members-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.members-head .section-title { margin: 0; font-size: 15px; }
+.member-count { margin-left: 7px; color: var(--muted); font-size: 10px; font-weight: 400; }
+.members-progress { color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.member-progress-track { height: 3px; margin: 14px 0 17px; overflow: hidden; border-radius: 3px; background: #ffffff08; }
+.member-progress-track > span { display: block; height: 100%; width: 0; background: var(--accent); border-radius: inherit; transition: width 600ms cubic-bezier(.2,.8,.2,1); }
+.members-list { display: flex; flex-wrap: wrap; gap: 7px; }
+.member { display: inline-flex; align-items: center; max-width: 100%; padding: 5px 9px 5px 5px; border: 1px solid var(--line); border-radius: 9px; background: #ffffff03; font-size: 11px; }
+.member.empty { border-style: dashed; color: var(--muted); }
+.member-avatar { display: inline-flex; align-items: center; justify-content: center; width: 23px; height: 23px; flex: none; margin-right: 6px; border-radius: 6px; background: #373044; color: #d1baff; font-size: 10px; font-weight: 600; }
+.member:nth-child(3n + 2) .member-avatar { background: #2e3932; color: #c4dfa9; }
+.member:nth-child(3n) .member-avatar { background: #3e342e; color: #e8b99a; }
+.member.empty .member-avatar { background: #2c2d35; color: var(--muted); }
+.member-name { overflow-wrap: anywhere; }
+.member-me { margin-left: 3px; color: var(--accent); font-size: 9px; }
+.member-filled { width: 10px; height: 10px; margin-left: 4px; color: var(--match); stroke-width: 2.5; }
+.member-late { padding: 0 4px; margin-left: 4px; border-radius: 4px; background: #edbe8515; color: var(--warn); font-size: 8px; }
+.members-hint { margin-top: 12px; color: var(--muted); font-size: 10px; overflow-wrap: anywhere; }
+.members-hint:empty { display: none; }
+.members-empty { font-size: 11px; color: var(--muted); }
+
+/* Invite your people. */
+.invite { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-top: 22px; padding: 23px 25px; border: 1px solid var(--line); border-radius: 18px; background: #191920; }
+.invite-copy { display: flex; align-items: center; gap: 15px; }
+.invite-icon { display: grid; place-items: center; width: 40px; height: 40px; flex: none; border: 1px solid #b5a1fa30; border-radius: 12px; color: var(--accent); background: #b5a1fa08; }
+.invite-copy h2 { font-size: 14px; font-weight: 600; }
+.invite-copy p { margin-top: 3px; color: var(--muted); font-size: 10px; }
+.btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 10px; height: 46px; padding: 0 20px; border: 1px solid transparent; border-radius: 10px; font-size: 12px; font-weight: 650; transition: transform 180ms, box-shadow 200ms, background 200ms; }
+.btn:active { transform: scale(.97); }
+.btn-primary { background: var(--accent); color: #241e34; }
+.btn-primary .icon { width: 17px; height: 17px; }
+.btn-ghost { border-color: var(--line); background: transparent; color: var(--ink); }
+.invite .btn { flex: none; min-width: 200px; }
+.footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 3px; color: var(--muted); font-size: 10px; }
+.refresh-btn { display: inline-flex; align-items: center; gap: 6px; flex: none; padding: 7px 0 7px 8px; border: 0; background: transparent; color: var(--muted); font-size: 10px; }
+.refresh-btn .icon { width: 12px; height: 12px; }
+.refresh-btn.refreshing .icon { animation: ring-turn 800ms linear infinite; }
+.page-signoff { margin-top: 15px; color: #737382; text-align: center; font-size: 8px; letter-spacing: 1.8px; }
+.page-signoff > span { margin: 0 7px; color: var(--accent); font-size: 12px; }
+
+/* Loading, joining and small feedback. */
+.state { min-height: 55vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; }
+.state-orbit { display: grid; place-items: center; width: 55px; height: 55px; border: 1px dashed var(--accent); border-radius: 50%; color: var(--accent); animation: ring-turn 8s linear infinite; }
+.state-orbit .icon { width: 26px; height: 26px; }
+.state-icon { width: 40px; height: 40px; color: var(--accent); }
+.state-text { font-size: 13px; color: var(--muted); }
+.state-title { max-width: 320px; text-align: center; font-size: 16px; font-weight: 600; }
+.state-btn { width: 240px; max-width: 100%; }
+.modal { position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center; overflow-y: auto; padding: 28px 20px; }
+.modal-mask { position: fixed; inset: 0; background: #07080bbd; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+.modal-card { position: relative; width: 100%; max-width: 385px; padding: 30px; border: 1px solid #b5a1fa40; border-radius: 26px; background: #1b1c25; box-shadow: 0 24px 80px #0006; animation: modal-in 350ms cubic-bezier(.2,.8,.2,1) both; }
+.modal-mark { display: grid; place-items: center; width: 47px; height: 47px; margin-bottom: 25px; border-radius: 14px; background: var(--accent); color: #241e34; transform: rotate(-9deg); }
+.modal-mark .icon { width: 30px; height: 30px; }
+.modal-eyebrow { color: var(--accent); font-size: 8px; letter-spacing: 1.4px; }
+.modal-title { margin-top: 7px; font-size: 28px; font-weight: 700; }
+.modal-sub { margin-top: 7px; color: var(--muted); font-size: 12px; line-height: 1.8; }
+.input-label { display: block; margin: 23px 0 7px; font-size: 11px; color: #b7b6c3; }
+.modal-input { width: 100%; height: 48px; padding: 0 13px; border: 1px solid #41414e; border-radius: 10px; background: #14151c; color: var(--ink); font-size: 16px; outline: none; transition: border-color 200ms, box-shadow 200ms; }
+.modal-input::placeholder { font-size: 12px; color: #818190; }
+.modal-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px #b5a1fa12; }
+.modal-card .btn { width: 100%; margin-top: 17px; font-size: 13px; }
+.modal-note { margin-top: 15px; color: var(--muted); font-size: 10px; text-align: center; }
+.toast { position: fixed; left: 50%; bottom: calc(28px + env(safe-area-inset-bottom)); z-index: 60; width: max-content; max-width: calc(100vw - 32px); padding: 11px 18px; border: 1px solid #b5a1fa55; border-radius: 12px; background: #2a2638; color: var(--ink); box-shadow: 0 8px 30px #0006; font-size: 12px; transform: translateX(-50%); pointer-events: none; }
+.toast:not(.hidden) { animation: toast-in 220ms ease-out both; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+/* Animate entries once; polling should never restart the page. */
+main:not(.hidden) .hero { animation: rise-in 550ms ease-out both; }
+main:not(.hidden) .dashboard { animation: rise-in 650ms 80ms ease-out both; }
+main:not(.hidden) .invite { animation: rise-in 650ms 150ms ease-out both; }
+@keyframes rise-in { from { opacity: 0; transform: translateY(13px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes match-in { from { opacity: 0; transform: translateY(10px) scale(.98); } to { opacity: 1; transform: none; } }
+@keyframes modal-in { from { opacity: 0; transform: translateY(18px) scale(.97); } to { opacity: 1; transform: none; } }
+@keyframes toast-in { from { opacity: 0; translate: 0 8px; } to { opacity: 1; translate: 0 0; } }
+@keyframes orbit-float { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-7px) rotate(3deg); } }
+@keyframes sparkle-turn { 0%, 100% { rotate: -8deg; } 50% { rotate: 13deg; } }
+@keyframes ring-turn { to { transform: rotate(360deg); } }
+@keyframes dot-pulse { 50% { opacity: .35; transform: scale(.8); } }
+@keyframes check-pop { 0% { transform: scale(.55); } 65% { transform: scale(1.18); } 100% { transform: scale(1); } }
+@keyframes ripple-out { to { opacity: 0; transform: translate(-50%, -50%) scale(4); } }
+@keyframes confetti-burst { 0% { opacity: .9; transform: translate(0, 0) rotate(0); } 100% { opacity: 0; transform: translate(var(--dx), var(--dy)) rotate(var(--spin)); } }
+
+@media (hover: hover) {
+  .slot:hover { transform: translateY(-3px); border-color: #777080; }
+  .slot.on:hover { border-color: #d3c1ff; box-shadow: 0 6px 20px #b5a1fa12; }
+  .slot.all-free:hover { border-color: #e1ffb4; box-shadow: 0 6px 24px #cdf58618; }
+  .chip:hover { color: var(--ink); border-color: #767083; }
+  .btn-primary:hover { background: #c6b4ff; box-shadow: 0 5px 23px #b5a1fa18; }
+  .refresh-btn:hover { color: var(--accent); }
+}
+@media (max-width: 760px) {
+  .page { max-width: 620px; padding: 23px 20px calc(24px + env(safe-area-inset-bottom)); }
+  .hero { align-items: flex-start; flex-direction: column; gap: 23px; padding: 30px 0 26px; }
+  .hero h1 { font-size: 40px; }
+  .week-card { width: 100%; min-width: 0; padding: 0; border: 0; }
+  .week-orbit { width: 150px; height: 150px; top: -135px; right: -8px; opacity: .3; }
+  .week-eyebrow { font-size: 8px; }
+  .hero-row { margin-top: 6px; }
+  .hero-date { font-size: 23px; }
+  .hero-sub { margin-top: 6px; }
+  .dashboard { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .selection-panel { padding: 22px; }
+  .slot { min-height: 162px; }
+  .slot-label { font-size: 18px; }
+  .slot-count { font-size: 11px; }
+  .slot-names { font-size: 10px; }
+  .chip { min-height: 42px; font-size: 11px; padding: 10px 2px; }
+  .group-panel { gap: 16px; }
+  .result { padding: 21px 23px; }
+  .all-free-banner { gap: 8px; padding: 23px; margin-bottom: 16px; }
+  .all-free-title { font-size: 29px; }
+  .all-free-title > span { display: block; font-size: 19px; margin-top: -3px; }
+  .all-free-title > span::before { content: none; }
+  .match-emblem { width: 88px; height: 88px; margin-right: 0; }
+  .match-emblem > .icon { width: 48px; height: 48px; }
+  .match-ring { inset: 4px; }
+  .match-ring-two { inset: -7px; }
+  .match-caption { bottom: -4px; font-size: 7px; }
+  .all-free-slots { gap: 6px; }
+  .match-slot { padding: 4px 7px; font-size: 10px; }
+  .invite { align-items: stretch; flex-direction: column; gap: 18px; margin-top: 17px; padding: 21px 23px; }
+  .invite .btn { width: 100%; }
+  .invite .btn > .icon:last-child { margin-left: auto; }
+  .invite .btn > .icon:first-child { margin-right: auto; }
+  .footer { align-items: flex-start; font-size: 9px; }
+  .refresh-btn { padding-top: 0; font-size: 9px; }
+}
+@media (max-width: 380px) {
+  .page { padding-left: 15px; padding-right: 15px; }
+  .topbar { padding-bottom: 19px; }
+  .topbar-note { font-size: 10px; gap: 5px; }
+  .brand-mark { width: 35px; height: 35px; border-radius: 11px; }
+  .brand-name { font-size: 15px; }
+  .brand-name > span { font-size: 7px; letter-spacing: 1.5px; }
+  .hero h1 { font-size: 34px; }
+  .eyebrow { font-size: 7px; letter-spacing: 1.4px; }
+  .week-orbit { width: 110px; height: 110px; top: -118px; right: -10px; opacity: .25; }
+  .selection-panel { padding: 18px 15px; }
+  .section-title { font-size: 17px; }
+  .save-indicator { font-size: 9px; }
+  .grid { gap: 8px; }
+  .slot { min-height: 160px; padding: 12px; }
+  .slot-label { font-size: 16px; }
+  .slot-date { display: block; margin-left: 0; margin-top: 2px; }
+  .slot-count { font-size: 10px; }
+  .badge { font-size: 8px; padding: 2px 5px; }
+  .all-free-banner { padding: 20px; }
+  .all-free-title { font-size: 27px; }
+  .all-free-eyebrow { font-size: 8px; letter-spacing: .8px; }
+  .match-emblem { position: absolute; top: 47px; right: 23px; width: 65px; height: 65px; }
+  .match-emblem > .icon { width: 34px; height: 34px; }
+  .all-free-text { font-size: 11px; }
+  .all-free-slots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 220px; }
+  .match-slot { justify-content: center; }
+  .modal-card { padding: 25px; }
+  .selection-note { font-size: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .celebration, .ripple { display: none; }
+}
